@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Gowun+Dodum&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #27575D, #A1BB9A);
+    color: whitesmoke;
+    font-family: 'Gowun Dodum', sans-serif;
+    
+}
+
+/*
+.entete{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+    z-index: 3;
+}
+
+.navglass{
+    position: relative;
+    display: flex;
+    margin-left: 25%;
+    backdrop-filter: blur(10px);
+    border: 0px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 5px 5px 5px rgba(15, 18, 22, 0.5);
+    background-color: rgba(255, 255, 255, 0.24);
+    height: 70px;
+    width: 29%;
+    border-radius: 30px;
+}
+
+.steeve{
+    position: relative;
+    display: flex;
+    margin-left: 30px;
+    backdrop-filter: blur(10px);
+    border: 0px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 5px 5px 5px rgba(15, 18, 22, 0.5);
+    background-color: rgba(255, 255, 255, 0.24);
+    width: 9.5%;
+    padding-left: 25px;
+    border-radius: 40px;
+    height: 80px;
+}
+
+.steeve h1{
+    color: #F9C80E;
+    transition: .5s;
+}
+
+.steeve h1:hover{
+    transform: scale(1.1);
+}
+
+/*
+.steeve h1:after{
+    content: "";
+    position: absolute;
+    background-color: #64B6AC;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 3px;
+    transition: 0.4s;
+}
+
+
+.steeve h1:hover:after{
+    width: 76%;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.entete .nav li{
+    padding: 0px 35px 10px;
+    transition: .5s;
+}
+
+.entete .nav li:hover{
+    transform: scale(1.2);
+}
+
+
+.entete .nav li a{
+    position: relative;
+    justify-content: center;
+    color: #F9C80E;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: 'Gowun Dodum', sans-serif;
+    margin-left: -20px;
+    font-weight: bold;
+}
+
+
+.entete .nav li a:after{
+    content: "";
+    position: absolute;
+    background-color: #64B6AC;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 3px;
+    transition: 0.4s;
+}
+
+
+.entete .nav li a:hover:after{
+    width: 100%;
+}
+
+h1{
+    flex: 1 1 auto;
+    margin-left: 5%;
+    font-family: 'Dancing Script', cursive;
+    color: #2a4553;
+    font-size: 30px;
+}
+*/
+
+
+
+.banner-area{
+    background: url(topPicHead.png)no-repeat 50% 50%;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 0px 0px 20px 20px;
+}
+
+
+h1 {
+    
+    font-size: 5em;
+    color: #E1C6C6;
+    padding: 200px 0 0 20%;
+    text-shadow: -3px 3px 2px #27575D;
+    animation: titre ease 3.5s;
+}
+
+@keyframes titre {
+    0%{
+        opacity: 0;
+        transform: translateY(120px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.about-area, .port-area, .contact-area{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 400px;
+    font-size: 20px;
+    border-bottom: 3px solid #E1C6C6;
+    border-right: 3px solid #E1C6C6;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+}
+
+.about-area, .port-area, .contact-area .textpart h2 p{
+    color: #FFFF;
+    padding: 30px 30px;
+}
+
+.contact-area{
+    margin-bottom: 20%;
+}
+
+[class*="reveal-"] {
+    opacity: 0;
+    transform: translateY(-30px);
+}
+
+.reveal-visible {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1.5s cubic-bezier(.7, 0, 0, 1);
+}
+
+.reveal-1 {
+    transition-delay: .2s;
+}
+
+.reveal-2 {
+    transition-delay: .3s;
+}
+
+
+    
+.parallaxe1{
+    position: absolute;
+    display: flex;
+    width: 40%;
+    height: 50%;
+    margin-top: 30%;
+    margin-left: 7%;
+    z-index: 1;
+}
+
+.parallaxe2{
+    position: absolute;
+    display: flex;
+    width: 25%;
+    height: 35%;
+    margin-right: -800px;
+    margin-top: 500px;
+    z-index: 2;
+}
+
+.parallaxe3{
+    position: absolute;
+    display: flex;
+    width: 20%;
+    height: 30%;
+    margin-top: 20%;
+    margin-left: -40%;
+    z-index: 2;
+}
+
+.parallaxe4{
+    position: absolute;
+    display: flex;
+    width: 60%;
+    height: 10%;
+    margin-top: -500px;
+    
+    z-index: 1;
+}
+
+.encre{
+    position: relative;
+    top: -170px;
+    visibility: hidden;
+}
+
+.encretop{
+    position: relative;
+    top: 0;
+    visibility: hidden;
+}
+
+.entete .steeve a {
+    text-decoration: none;
+    color: #F9C80E;
+}
+
+.bgcolor {
+    background: #CFE6D5;
+}
+
+.navbar-collapse a{
+    font-family: 'Gowun Dodum', sans-serif, !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-brand {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.7em;
+}
