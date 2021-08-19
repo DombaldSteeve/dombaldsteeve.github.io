@@ -503,3 +503,74 @@ footer p span {
         padding-left: 55px;
     }
 }
+
+@media screen and (max-width: 395px) {
+    banner-area{
+        background: url(topPicHead.png)no-repeat 50% 50%;
+        background-size: cover;
+        height: 100vh;
+        border-radius: 0px 0px 20px 20px;
+        margin: 0 auto;
+    }
+    h1 {
+        font-size: 30px;
+        margin: 0 auto;
+        padding-left: 70px;
+    }
+    .about-area, .port-area, .contact-area{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 1150px;
+        font-size: 20px;
+        border-bottom: 3px solid #E1C6C6;
+        border-right: 3px solid #E1C6C6;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35%;
+    }
+    .contact-area{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 150px;
+        font-size: 20px;
+        border-bottom: 3px solid #E1C6C6;
+        border-right: 3px solid #E1C6C6;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35%;
+    }
+    [class*="reveal-"] {
+        opacity: 1;
+        transition: none;
+        transform: none;
+    }
+    
+    .reveal-visible {
+        opacity: 1;
+        transform: translateY(0);
+        transition: 0s cubic-bezier(.7, 0, 0, 1);
+    }
+    
+    .reveal-1 {
+        transition-delay: .3s;
+    }
+    
+    .reveal-2 {
+        transition-delay: .4s;
+    }
+    nav {
+        display: none !important;
+    }
+    footer p span {
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.1em;
+    }
+}
