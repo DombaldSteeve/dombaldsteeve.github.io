@@ -150,15 +150,17 @@ h1{
 
 
 h1 {
-    
+    position: absolute;
+    padding-top: 19%;
+    margin-left: 21%;
     font-size: 5em;
     color: #E1C6C6;
-    padding: 200px 0 0 20%;
     text-shadow: -3px 3px 2px #27575D;
-    animation: titre ease 3s;
 }
 
-@keyframes titre {
+/*
+
+@keyframes  h1 {
     0%{
         opacity: 0;
         transform: translateY(120px);
@@ -168,6 +170,8 @@ h1 {
         transform: translateY(0px);
     }
 }
+
+*/
 
 .about-area, .port-area, .contact-area{
     position: relative;
@@ -304,59 +308,175 @@ footer p span {
     font-size: 1.3em;
 }
 
-@media screen and (max-width: 1360px) {
-    h1 {
-        font-size: 70px;
-        margin: 0 auto;
-    }
-}
 
-@media screen and (max-width: 1195px) {
-    h1 {
-        font-size: 65px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 1070px) {
-    h1 {
-        font-size: 60px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 1110px) {
-    h1 {
-        font-size: 60px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 970px) {
-    h1 {
-        font-size: 50px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 970px) {
-    h1 {
-        font-size: 50px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (max-width: 850px) {
-    banner-area{
+@media screen and (max-width: 1425px) {
+    .banner-area{
         background: url(topPicHead.png)no-repeat 50% 50%;
         background-size: cover;
         height: 100vh;
         border-radius: 0px 0px 20px 20px;
-        margin: 0 auto;
     }
     h1 {
-        font-size: 50px;
-        margin: 0 auto;
+        position: absolute;
+        padding-top: 21%;
+        margin-left: 21%;
+        font-size: 5em;
+        color: #E1C6C6;
+        text-shadow: -3px 3px 2px #27575D;
+    }
+}
+
+@media screen and (max-width: 1365px) {
+    .banner-area{
+        background: url(topPicHead.png)no-repeat 50% 50%;
+        background-size: cover;
+        height: 100vh;
+        border-radius: 0px 0px 20px 20px;
+    }
+    h1 {
+        position: absolute;
+        padding-top: 21%;
+        margin-left: 21%;
+        font-size: 4.5em;
+        color: #E1C6C6;
+        text-shadow: -3px 3px 2px #27575D;
+    }
+}
+
+
+@media screen and (max-width: 1250px) {           
+    .banner-area{
+        background: url(topPicHead.png)no-repeat 50% 50%;
+        background-size: cover;
+        height: 100vh;
+        border-radius: 0px 0px 20px 20px;
+    }
+    h1 {
+        position: absolute;
+        padding-top: 23%;
+        margin-left: 23%;
+        font-size: 4em;
+        color: #E1C6C6;
+        text-shadow: -3px 3px 2px #27575D;
+    }
+}
+
+@media screen and (max-width: 1195px) {           
+    .banner-area{
+        background: url(topPicHead.png)no-repeat 50% 50%;
+        background-size: cover;
+        height: 100vh;
+        border-radius: 0px 0px 20px 20px;
+    }
+    h1 {
+        position: absolute;
+        padding-top: 23%;
+        margin-left: 23%;
+        font-size: 4em;
+        color: #E1C6C6;
+        text-shadow: -3px 3px 2px #27575D;
+    }
+}
+
+@media screen and (max-width: 1125px) {           
+    .banner-area{
+        background: url(topPicHead.png)no-repeat 50% 50%;
+        background-size: cover;
+        height: 100vh;
+        border-radius: 0px 0px 20px 20px;
+    }
+    h1 {
+        position: absolute;
+        padding-top: 25%;
+        margin-left: 23%;
+        font-size: 3.5em;
+        color: #E1C6C6;
+        text-shadow: -3px 3px 2px #27575D;
+    }
+}
+
+@media screen and (max-width: 1110px) {           
+    .banner-area{
+        background: url(topPicHead.png)no-repeat 50% 50%;
+        background-size: cover;
+        height: 100vh;
+        border-radius: 0px 0px 20px 20px;
+    }
+    h1 {
+        position: absolute;
+        padding-top: 25%;
+        margin-left: 23%;
+        font-size: 3.5em;
+        color: #E1C6C6;
+        text-shadow: -3px 3px 2px #27575D;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .banner-area{
+        background: url(topPicHead.png)no-repeat 50% 50%;
+        background-size: cover;
+        height: 100vh;
+        border-radius: 0px 0px 20px 20px;
+    }
+    h1 {
+        position: absolute;
+        padding-top: 28%;
+        margin-left: 23%;
+        font-size: 3.5em;
+        color: #E1C6C6;
+        text-shadow: -3px 3px 2px #27575D;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .banner-area{
+        background: url(topPicHead.png)no-repeat 50% 50%;
+        background-size: cover;
+        height: 100vh;
+        border-radius: 0px 0px 20px 20px;
+    }
+    h1 {
+        position: absolute;
+        padding-top: 28%;
+        margin-left: 23%;
+        font-size: 3.5em;
+        color: #E1C6C6;
+        text-shadow: -3px 3px 2px #27575D;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .banner-area{
+        background: url(topPicHead.png)no-repeat 50% 50%;
+        background-size: cover;
+        height: 100vh;
+        border-radius: 0px 0px 20px 20px;
+    }
+    h1 {
+        position: absolute;
+        padding-top: 31%;
+        margin-left: 18%;
+        font-size: 3.5em;
+        color: #E1C6C6;
+        text-shadow: -3px 3px 2px #27575D;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .banner-area{
+        background: url(topPicHead.png)no-repeat 50% 50%;
+        background-size: cover;
+        height: 100vh;
+        border-radius: 0px 0px 20px 20px;
+    }
+    h1 {
+        position: absolute;
+        padding-top: 34%;
+        margin-left: 16%;
+        font-size: 3.5em;
+        color: #E1C6C6;
+        text-shadow: -3px 3px 2px #27575D;
     }
     .about-area, .port-area, .contact-area{
         position: relative;
@@ -393,18 +513,20 @@ footer p span {
     }
 }
 
-@media screen and (max-width: 700px) {
-    banner-area{
+@media screen and (max-width: 767px) {
+    .banner-area{
         background: url(topPicHead.png)no-repeat 50% 50%;
         background-size: cover;
         height: 100vh;
         border-radius: 0px 0px 20px 20px;
-        margin: 0 auto;
     }
     h1 {
-        font-size: 50px;
-        margin: 0 auto;
-        padding-left: 90px;
+        position: absolute;
+        padding-top: 39%;
+        margin-left: 13%;
+        font-size: 3.5em;
+        color: #E1C6C6;
+        text-shadow: -3px 3px 2px #27575D;
     }
     .about-area, .port-area, .contact-area{
         position: relative;
@@ -444,18 +566,20 @@ footer p span {
     }
 }
 
-@media screen and (max-width: 625px) {
-    banner-area{
+@media screen and (max-width: 685px) {
+    .banner-area{
         background: url(topPicHead.png)no-repeat 50% 50%;
         background-size: cover;
         height: 100vh;
         border-radius: 0px 0px 20px 20px;
-        margin: 0 auto;
     }
     h1 {
-        font-size: 50px;
-        margin: 0 auto;
-        padding-left: 70px;
+        position: absolute;
+        padding-top: 42%;
+        margin-left: 8%;
+        font-size: 3.5em;
+        color: #E1C6C6;
+        text-shadow: -3px 3px 2px #27575D;
     }
     .about-area, .port-area, .contact-area{
         position: relative;
@@ -495,39 +619,241 @@ footer p span {
     }
 }
 
-@media screen and (max-width: 590px) {
-    
-    h1 {
-        font-size: 45px;
-        margin: 0 auto;
-        padding-left: 55px;
-    }
-}
-
-@media screen and (max-width: 395px) {
-    banner-area{
+@media screen and (max-width: 622px) {
+    .banner-area{
         background: url(topPicHead.png)no-repeat 50% 50%;
         background-size: cover;
         height: 100vh;
         border-radius: 0px 0px 20px 20px;
-        margin: 0 auto;
     }
     h1 {
-        font-size: 32px;
-        margin: 0 auto;
-        padding-left: 45px;
-        color: #27575D;
-        text-shadow: none;
-        animation: none;
-        padding-top: 250px;
+        position: absolute;
+        padding-top: 49%;
+        margin-left: 5%;
+        font-size: 3.5em;
+        color: #E1C6C6;
+        text-shadow: -3px 3px 2px #27575D;
     }
     .about-area, .port-area, .contact-area{
         position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 300px;
-        height: 1150px;
+        width: 500px;
+        height: 600px;
+        font-size: 20px;
+        border-bottom: 3px solid #E1C6C6;
+        border-right: 3px solid #E1C6C6;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35%;
+    }
+    [class*="reveal-"] {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    
+    .reveal-visible {
+        opacity: 1;
+        transform: translateY(0);
+        transition: 1s cubic-bezier(.7, 0, 0, 1);
+    }
+    
+    .reveal-1 {
+        transition-delay: .3s;
+    }
+    
+    .reveal-2 {
+        transition-delay: .4s;
+    }
+    nav {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .banner-area{
+        background: url(topPicHead.png)no-repeat 50% 50%;
+        background-size: cover;
+        height: 100vh;
+        border-radius: 0px 0px 20px 20px;
+    }
+    h1 {
+        position: absolute;
+        padding-top: 49%;
+        margin-left: 8%;
+        font-size: 3.1em;
+        color: #E1C6C6;
+        text-shadow: -3px 3px 2px #27575D;
+    }
+    .about-area, .port-area, .contact-area{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 600px;
+        font-size: 20px;
+        border-bottom: 3px solid #E1C6C6;
+        border-right: 3px solid #E1C6C6;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35%;
+    }
+    [class*="reveal-"] {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    
+    .reveal-visible {
+        opacity: 1;
+        transform: translateY(0);
+        transition: 1s cubic-bezier(.7, 0, 0, 1);
+    }
+    
+    .reveal-1 {
+        transition-delay: .3s;
+    }
+    
+    .reveal-2 {
+        transition-delay: .4s;
+    }
+    nav {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .banner-area{
+        background: url(topPicHead.png)no-repeat 50% 50%;
+        background-size: cover;
+        height: 100vh;
+        border-radius: 0px 0px 20px 20px;
+    }
+    h1 {
+        position: absolute;
+        padding-top: 51%;
+        margin-left: 8%;
+        font-size: 2.8em;
+        color: #E1C6C6;
+        text-shadow: -3px 3px 2px #27575D;
+    }
+    .about-area, .port-area, .contact-area{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 500px;
+        height: 600px;
+        font-size: 20px;
+        border-bottom: 3px solid #E1C6C6;
+        border-right: 3px solid #E1C6C6;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35%;
+    }
+    [class*="reveal-"] {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    
+    .reveal-visible {
+        opacity: 1;
+        transform: translateY(0);
+        transition: 1s cubic-bezier(.7, 0, 0, 1);
+    }
+    
+    .reveal-1 {
+        transition-delay: .3s;
+    }
+    
+    .reveal-2 {
+        transition-delay: .4s;
+    }
+    nav {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .banner-area{
+        background: url(topPicHead.png)no-repeat 50% 50%;
+        background-size: cover;
+        height: 100vh;
+        border-radius: 0px 0px 20px 20px;
+    }
+    h1 {
+        position: absolute;
+        padding-top: 59%;
+        margin-left: 8%;
+        font-size: 2.8em;
+        color: #E1C6C6;
+        text-shadow: -3px 3px 2px #27575D;
+    }
+    .about-area, .port-area, .contact-area{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 800px;
+        font-size: 20px;
+        border-bottom: 3px solid #E1C6C6;
+        border-right: 3px solid #E1C6C6;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35%;
+    }
+    [class*="reveal-"] {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    
+    .reveal-visible {
+        opacity: 1;
+        transform: translateY(0);
+        transition: 1s cubic-bezier(.7, 0, 0, 1);
+    }
+    
+    .reveal-1 {
+        transition-delay: .3s;
+    }
+    
+    .reveal-2 {
+        transition-delay: .4s;
+    }
+    nav {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .banner-area{
+        background: url(topPicHead.png)no-repeat 50% 50%;
+        background-size: cover;
+        height: 100vh;
+        border-radius: 0px 0px 20px 20px;
+    }
+    h1 {
+        position: absolute;
+        padding-top: 105%;
+        margin-left: 8%;
+        font-size: 2em;
+        color: #27575D;
+        text-shadow: none;
+    }
+    .about-area, .port-area, .contact-area{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 950px;
         font-size: 20px;
         border-bottom: 3px solid #E1C6C6;
         border-right: 3px solid #E1C6C6;
@@ -541,7 +867,150 @@ footer p span {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 300px;
+        width: 350px;
+        height: 150px;
+        font-size: 20px;
+        border-bottom: 3px solid #E1C6C6;
+        border-right: 3px solid #E1C6C6;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35%;
+    }
+    [class*="reveal-"] {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    
+    .reveal-visible {
+        opacity: 1;
+        transform: translateY(0);
+        transition: 1s cubic-bezier(.7, 0, 0, 1);
+    }
+    
+    .reveal-1 {
+        transition-delay: .3s;
+    }
+    
+    .reveal-2 {
+        transition-delay: .4s;
+    }
+    nav {
+        display: none !important;
+    }
+}
+
+
+@media screen and (max-width: 395px) {
+    .banner-area{
+        background: url(topPicHead.png)no-repeat 50% 50%;
+        background-size: cover;
+        height: 100vh;
+        border-radius: 0px 0px 20px 20px;
+    }
+    h1 {
+        position: absolute;
+        padding-top: 105%;
+        margin-left: 8%;
+        font-size: 2em;
+        color: #27575D;
+        text-shadow: none;
+    }
+    .about-area, .port-area, .contact-area{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 950px;
+        font-size: 20px;
+        border-bottom: 3px solid #E1C6C6;
+        border-right: 3px solid #E1C6C6;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35%;
+    }
+    .contact-area{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 150px;
+        font-size: 20px;
+        border-bottom: 3px solid #E1C6C6;
+        border-right: 3px solid #E1C6C6;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35%;
+    }
+    [class*="reveal-"] {
+        opacity: 1;
+        transition: none;
+        transform: none;
+    }
+    
+    .reveal-visible {
+        opacity: 1;
+        transform: translateY(0);
+        transition: 0s cubic-bezier(.7, 0, 0, 1);
+    }
+    
+    .reveal-1 {
+        transition-delay: .3s;
+    }
+    
+    .reveal-2 {
+        transition-delay: .4s;
+    }
+    nav {
+        display: none !important;
+    }
+    footer p span {
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.1em;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .banner-area{
+        background: url(topPicHead.png)no-repeat 50% 50%;
+        background-size: cover;
+        height: 100vh;
+        border-radius: 0px 0px 20px 20px;
+    }
+    h1 {
+        position: absolute;
+        padding-top: 105%;
+        margin-left: 8%;
+        font-size: 2em;
+        color: #27575D;
+        text-shadow: none;
+    }
+    .about-area, .port-area, .contact-area{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 950px;
+        font-size: 20px;
+        border-bottom: 3px solid #E1C6C6;
+        border-right: 3px solid #E1C6C6;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 35%;
+    }
+    .contact-area{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
         height: 150px;
         font-size: 20px;
         border-bottom: 3px solid #E1C6C6;
@@ -580,34 +1049,33 @@ footer p span {
 }
 
 @media screen and (max-width: 360px) {
-    banner-area{
+    .banner-area{
         background: url(topPicHead.png)no-repeat 50% 50%;
         background-size: cover;
         height: 100vh;
         border-radius: 0px 0px 20px 20px;
-        margin: 0 auto;
     }
     h1 {
-        font-size: 25px;
-        margin: 0 auto;
-        padding-left: 45px;
+        position: absolute;
+        padding-top: 105%;
+        margin-left: 8%;
+        font-size: 2em;
         color: #27575D;
         text-shadow: none;
-        animation: none;
-        padding-top: 250px;
     }
     .about-area, .port-area, .contact-area{
         position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 250px;
-        height: 1450px;
+        width: 350px;
+        height: 950px;
         font-size: 20px;
         border-bottom: 3px solid #E1C6C6;
         border-right: 3px solid #E1C6C6;
         text-align: justify;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 35%;
     }
     .contact-area{
@@ -615,15 +1083,15 @@ footer p span {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 250px;
+        width: 350px;
         height: 150px;
-        font-size: 16px;
+        font-size: 20px;
         border-bottom: 3px solid #E1C6C6;
         border-right: 3px solid #E1C6C6;
         text-align: justify;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 35%;
-        margin-bottom: 20%;
     }
     [class*="reveal-"] {
         opacity: 1;
