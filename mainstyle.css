@@ -168,6 +168,17 @@ h1 {
     padding:0;
 }
 
+span{
+    opacity: 0;
+    transition: all 1s ease;
+    transform: translateY(50px);
+}
+
+span.fade{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
 
 /*
 
@@ -217,15 +228,15 @@ h1 {
 .reveal-visible {
     opacity: 1;
     transform: translateY(0);
-    transition: 1.2s cubic-bezier(.7, 0, 0, 1);
+    transition: 0.8s cubic-bezier(.7, 0, 0, 1);
 }
 
 .reveal-1 {
-    transition-delay: .3s;
+    transition-delay: .2s;
 }
 
 .reveal-2 {
-    transition-delay: .4s;
+    transition-delay: .3s;
 }
 
 
@@ -333,7 +344,8 @@ footer p span {
         font-size:8vw;
         line-height:15vw;
         position: absolute;
-        top: 50%; left: 50%;
+        top: 50%; 
+        left: 50%;
         transform: translate(-50%, -50%);
     }
     .about-area, .port-area, .contact-area{
@@ -366,7 +378,6 @@ footer p span {
         margin-right: auto;
         margin-top: 35%;
     }
-    
 }
 
 @media (min-width: 484px) and (max-width: 618px) {
@@ -380,7 +391,8 @@ footer p span {
         font-size:8vw;
         line-height:15vw;
         position: absolute;
-        top: 50%; left: 50%;
+        top: 50%; 
+        left: 50%;
         transform: translate(-50%, -50%);
     }
     .about-area, .port-area, .contact-area{
@@ -427,7 +439,8 @@ footer p span {
         font-size:8vw;
         line-height:15vw;
         position: absolute;
-        top: 50%; left: 50%;
+        top: 50%; 
+        left: 50%;
         transform: translate(-50%, -50%);
     }
     .about-area, .port-area, .contact-area{
@@ -471,7 +484,8 @@ footer p span {
         font-size:5vw;
         line-height:15vw;
         position: absolute;
-        top: 50%; left: 50%;
+        top: 50%; 
+        left: 50%;
         transform: translate(-50%, -50%);
     }
     .about-area, .port-area, .contact-area{
@@ -500,7 +514,8 @@ footer p span {
         font-size:5vw;
         line-height:15vw;
         position: absolute;
-        top: 50%; left: 50%;
+        top: 50%; 
+        left: 50%;
         transform: translate(-50%, -50%);
     }
 }
