@@ -240,11 +240,14 @@ h2{
     font-size: 1.2em;
     font-weight: bold;
     text-transform: uppercase;
+    padding-left: 3%;
 }
 
 .navbar .navbar-brand {
     font-family: 'Dancing Script', cursive;
     font-size: 1.7em;
+    padding-left: 20px;
+    font-weight: bold;
 }
 
 .navbar {
