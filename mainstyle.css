@@ -74,15 +74,19 @@ span.fade{
     justify-content: center;
     align-items: center;
     width: 600px;
-    height: 350px;
+    height: 400px;
     font-size: 25px;
     border-bottom: 3px solid #e1c6c6;
     border-right: 3px solid #e1c6c6;
     border-radius: 15px;
     text-align: justify;
     margin-left: 16%;
-    margin-top: 25%;
+    margin-top: 15%;
     z-index: 2;
+    background-color: #e1c6c64b;
+    backdrop-filter: blur(10px);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(45,55,68,0.30);
 }
 
 .port-area {
@@ -91,15 +95,19 @@ span.fade{
     justify-content: center;
     align-items: center;
     width: 600px;
-    height: 350px;
+    height: 400px;
     font-size: 25px;
     border-bottom: 3px solid #e1c6c6;
     border-left: 3px solid #e1c6c6;
     border-radius: 15px;
     text-align: justify;
     margin-left: 51%;
-    margin-top: 25%;
+    margin-top: 20%;
     z-index: 2;
+    background-color: #e1c6c64b;
+    backdrop-filter: blur(10px);
+    background-clip: padding-box;
+    box-shadow: -10px 10px 10px rgba(45,55,68,0.30);
 }
 
 .contact-area {
@@ -108,20 +116,31 @@ span.fade{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 200px;
-    font-size: 25px;
+    width: 500px;
+    height: 300px;
     border: 3px solid #e1c6c6;
     border-radius: 15px;
     text-align: justify;
-    margin-left: 75%;
-    margin-top: 30%;
+    margin-left: 20%;
+    margin-top: 20%;
     z-index: 2;
     color: rgba(0, 0, 0, 0.795);
-    font-size: 1em;
+    background-color: #e1c6c64b;
+    backdrop-filter: blur(20px);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(45,55,68,0.30);
 }
 
-.about-area, .port-area, .contact-area .textpart h2 p{
+h2{
+    position: relative;
+    color: rgba(0, 0, 0, 0.795);
+    padding-bottom: 5px;
+    font-size: 1.8em;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.about-area, .port-area, .textpart h2 p{
     position: relative;
     color: rgba(0, 0, 0, 0.795);
     padding: 30px 30px;
@@ -130,8 +149,16 @@ span.fade{
     z-index: 2;
 }
 
+.contact-area, .textpart p{
+    position: relative;
+    padding: 40px 30px 30px 30px;
+    font-size: 1.5em;
+
+    z-index: 2;
+}
+
 .contact-area{
-    margin-bottom: 20%;
+    margin-bottom: 12%;
 }
 
 [class*="reveal-"] {
@@ -160,9 +187,10 @@ span.fade{
     opacity: 0.7;
     width: 500px;
     height: 400px;
-    margin-top: -10%;
+    margin-top: -15%;
     right: 13%;
     z-index: 1;
+    border-radius: 15px;
 }
 
 .projectpic img{
@@ -172,9 +200,10 @@ span.fade{
     opacity: 0.7;
     width: 600px;
     height: 400px;
-    margin-top: -10%;
+    margin-top: -15%;
     left: 13%;
     z-index: 1;
+    border-radius: 15px;
 }
 
 .contactpic img{
@@ -185,7 +214,7 @@ span.fade{
     width: 450px;
     height: 550px;
     margin-top: -36%;
-    right: 20%;
+    right: 10%;
     z-index: 1;
 }
 
@@ -208,6 +237,7 @@ span.fade{
 
 .navbar-collapse a{
     font-family: 'Gowun Dodum', sans-serif, !important;
+    font-size: 1.2em;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -217,11 +247,17 @@ span.fade{
     font-size: 1.7em;
 }
 
+.navbar {
+    box-shadow: 10px 10px 10px rgba(45,55,68,0.30);
+}
+
+
+/*
 .contact-form{
     position: relative;
     display: block;
-    border: 2px solid #E1C6C6;
-    border-radius: 5px;
+    border: 3px solid #E1C6C6;
+    border-radius: 15px;
     width: 615px;
     margin-top: -34%;
     margin-left: 9%; 
@@ -262,6 +298,8 @@ form .submit {
     cursor: pointer;
     margin-bottom: 15px;
 }
+*/
+
 
 footer {
     position: relative;

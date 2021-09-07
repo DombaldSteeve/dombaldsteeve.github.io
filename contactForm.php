@@ -1,5 +1,42 @@
-<?php
+    <?php
 
+        echo "HI !!!";
+
+        
+
+        /*
+
+        if (isset($_POST['submit'])) {
+            $name = $_POST['name'];
+            $email = $_POST['email'];
+            $message = $_POST['message'];
+
+            $mailTo = "dombald.steeve@gmail.com";
+            $headers = "From: ".$email;
+            $txt = "You have received an email from ".$name.".\n\n".$message;
+
+            mail($maiTo, $email, $txt, $headers);
+            header("Location: index.php?mailsend");
+        }
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
 
     $name = $_POST['name'];
     $visitor_email = $_POST['email'];
@@ -23,4 +60,30 @@
 
     header("Location: main.html");
 
-?>
+    
+
+
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $text = $_POST['message'];
+
+    //Database connection 
+
+    $conn = new mysqli('localhost', 'root', '','contactformportfo');
+    if($conn->connect_error){
+        die('Connection Failed : '.$conn->connect_error);
+    }else{
+        $stmt = $conn->prepare("insert into contactmessage(name, email, message)values(?, ?, ?)");
+        $stmt->bind_param("sss", $name, $email, $text);
+        $stmt->execute();
+        echo "Registration Successfully !";
+        $stmt->close();
+        $conn->close();
+    }
+
+
+
+    */
+
+
+    
