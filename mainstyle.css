@@ -40,6 +40,7 @@ body {
 
 .banner-area{
     background: url(topPicHead.png)no-repeat 50% 50%;
+    background-image: url(topPicHead.png);
     background-size: cover;
     height: 100vh;
     border-radius: 0px 0px 20px 20px;
