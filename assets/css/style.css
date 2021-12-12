@@ -2803,7 +2803,7 @@ hr {
 
 /* line 830, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .section-padding40 {
-  padding-top: 140px;
+  padding-top: 90px;
   padding-bottom: 130px;
 }
 
@@ -3420,10 +3420,10 @@ hr {
   background-size: cover;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1799px) {
   /* line 3, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-height {
-    min-height: 880px;
+    min-height: 890px;
   }
 }
 
@@ -3554,7 +3554,7 @@ hr {
   color: #670000;
   line-height: 1;
   margin-bottom: 39px;
-  margin-bottom: 39px;
+  margin-bottom: 59px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1707px) {
@@ -3686,7 +3686,7 @@ hr {
   background: #ffff;
   position: relative;
   margin-right: 100px;
-  position: relative;
+  
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -3722,9 +3722,9 @@ hr {
   position: absolute;
   content: "";
   width: 100%;
-  height: 27%;
+  height: 30%;
   background: #FFEFAE;
-  right: -100px;
+ 
   z-index: -1;
   top: 0;
 }
