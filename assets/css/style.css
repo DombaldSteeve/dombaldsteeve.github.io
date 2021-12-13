@@ -2670,7 +2670,6 @@ hr {
 /* line 763, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .pt-top {
   padding-top: 160px;
-  padding-bottom: 100px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1991px) {
@@ -2800,8 +2799,8 @@ hr {
 
 /* line 830, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .section-padding40 {
-  padding-top: 90px;
-  padding-bottom: 130px;
+  padding-top: 190px;
+  padding-bottom: 230px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
