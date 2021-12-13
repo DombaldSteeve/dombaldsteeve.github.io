@@ -1056,7 +1056,7 @@ hr {
 
 /* line 501, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .mb-75 {
-  margin-bottom: 75px;
+  margin-bottom: 55px;
 }
 
 /* line 501, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
@@ -2481,7 +2481,7 @@ hr {
 /* 20. preloader */
 /* line 617, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .preloader {
-  background-color: #FFEFAE;
+  background: linear-gradient(90deg,#ffafafa2, #FFEFAE);
   width: 100%;
   height: 100%;
   position: fixed;
@@ -2670,12 +2670,14 @@ hr {
 /* line 763, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .pt-top {
   padding-top: 160px;
+  padding-bottom: 100px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1991px) {
   /* line 763, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
   .pt-top {
-    padding-top: 70px;
+    padding-top: 160px;
+    
   }
 }
 
@@ -2695,8 +2697,9 @@ hr {
 
 /* line 775, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .w-padding2 {
-  padding: 80px 0px;
+  padding: 150px 0px 20px 0px;
 }
+
 
 @media (max-width: 575px) {
   /* line 775, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
@@ -3015,7 +3018,8 @@ hr {
   display: block;
   font-weight: 300;
   line-height: 1.4;
-  margin-bottom: 22px;
+  margin-left: 20px;
+  margin-bottom: 12px;
   color: #670000;
 }
 
@@ -3444,7 +3448,8 @@ hr {
 
 /* line 23, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
 .slider-area {
-  background: #FFEFAE;
+  /* background: #FFEFAE; */
+  background: linear-gradient(90deg,#ffafafa2, #FFEFAE);
 }
 
 /* line 25, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
@@ -3683,10 +3688,10 @@ hr {
   
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1799px) {
   /* line 1, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
   .about-area {
-    margin-right: 50px;
+    margin-right: 0px;
   }
 }
 
@@ -3723,11 +3728,11 @@ hr {
   top: 0;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1799px) {
   /* line 19, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
   .about-area::before {
     height: 15%;
-    right: -50px;
+    right: 0px;
   }
 }
 
@@ -3735,7 +3740,7 @@ hr {
   /* line 19, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
   .about-area::before {
     height: 15%;
-    right: -50px;
+    right: 0px;
   }
 }
 
@@ -3762,10 +3767,11 @@ hr {
   font-weight: 300;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1799px) {
   /* line 44, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
   .about-area .about-caption p {
     padding-right: 20px;
+    text-align: justify;
   }
 }
 
@@ -4055,7 +4061,7 @@ hr {
   height: 900px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1991px) {
   /* line 12, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_gallery.scss */
   .gallery-area .box .big-img {
     height: 435px;
@@ -4177,7 +4183,7 @@ hr {
   transition: 0.4s;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1991px) {
   /* line 2, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_my-expertiese.scss */
   .our-services .single-services {
     padding: 36px 14px 32px 19px;
@@ -4442,7 +4448,8 @@ hr {
   padding: 50px 0px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+@media only screen and (min-width: 768px) and (max-width: 1991px) {
   /* line 105, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_footer.scss */
   .footer-bottom-area .footer-copy-right {
     float: left;
@@ -4453,7 +4460,7 @@ hr {
 .footer-bottom-area .footer-copy-right p {
   color: #FFEFAE;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 19px;
   line-height: 2;
   margin-bottom: 0px;
 }
@@ -4471,20 +4478,20 @@ hr {
 /* line 131, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_footer.scss */
 .footer-social > a {
   color: #FFEFAE;
-  width: 50px;
-  height: 50px;
-  font-size: 17px;
-  line-height: 50px;
+  width: 120px;
+  height: 120px;
+  font-size: 80px;
+  line-height: 130px;
   display: inline-block;
   text-align: center;
   margin-right: 8px;
   background: #771912;
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 1799px) {
   /* line 131, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_footer.scss */
   .footer-social > a {
-    margin-right: 2px;
+    margin-right: 10px;
   }
 }
 
