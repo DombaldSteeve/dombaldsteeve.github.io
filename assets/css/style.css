@@ -3392,11 +3392,11 @@ hr {
   margin-top: 15px !important;
 }
 
-/* line 172, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss */
+/* line 172, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss
 .mobile_menu .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
   color: #670000;
-}
+} */
 
 /* line 176, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss */
 .mobile_menu .slicknav_menu .slicknav_nav a {
@@ -3411,7 +3411,7 @@ hr {
 
 /* line 3, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
 .slider-height {
-  min-height: 960px;
+  min-height: 100vh;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3419,9 +3419,9 @@ hr {
 
 @media only screen and (min-width: 992px) and (max-width: 1799px) {
   /* line 3, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
-  .slider-height {
+  /* .slider-height {
     min-height: 890px;
-  }
+  } */
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
